@@ -1,0 +1,14 @@
+name: seam-erasure
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.5
+  - numpy
+  - scipy
+  - cvxopt
+  - pillow
+  - tqdm
+  - pip
+  - pip:
+    - recordclass
